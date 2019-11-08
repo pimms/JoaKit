@@ -10,6 +10,9 @@
 		19FB40D0237593D300819885 /* JoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB40C6237593D300819885 /* JoaKit.framework */; };
 		19FB40D5237593D300819885 /* JoaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB40D4237593D300819885 /* JoaKitTests.swift */; };
 		19FB40D7237593D300819885 /* JoaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FB40C9237593D300819885 /* JoaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19FB40E12375954500819885 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB40E02375954500819885 /* UIEdgeInsets.swift */; };
+		19FB40E42375969A00819885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB40E32375969900819885 /* UIKit.framework */; };
+		65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA78560156A7913CDB4F3 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		19FB40CF237593D300819885 /* JoaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FB40D4237593D300819885 /* JoaKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoaKitTests.swift; sourceTree = "<group>"; };
 		19FB40D6237593D300819885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FB40E02375954500819885 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
+		19FB40E32375969900819885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65BAA78560156A7913CDB4F3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FB40E42375969A00819885 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +63,7 @@
 				19FB40C8237593D300819885 /* JoaKit */,
 				19FB40D3237593D300819885 /* JoaKitTests */,
 				19FB40C7237593D300819885 /* Products */,
+				19FB40E22375969900819885 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +81,7 @@
 			children = (
 				19FB40C9237593D300819885 /* JoaKit.h */,
 				19FB40CA237593D300819885 /* Info.plist */,
+				65BAA91B3B9789BA1D98B4B5 /* Extensions */,
 			);
 			path = JoaKit;
 			sourceTree = "<group>";
@@ -84,6 +93,23 @@
 				19FB40D6237593D300819885 /* Info.plist */,
 			);
 			path = JoaKitTests;
+			sourceTree = "<group>";
+		};
+		19FB40E22375969900819885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19FB40E32375969900819885 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65BAA91B3B9789BA1D98B4B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65BAA78560156A7913CDB4F3 /* UIView.swift */,
+				19FB40E02375954500819885 /* UIEdgeInsets.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FB40E12375954500819885 /* UIEdgeInsets.swift in Sources */,
+				65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
