@@ -13,6 +13,10 @@
 		19FB40E12375954500819885 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB40E02375954500819885 /* UIEdgeInsets.swift */; };
 		19FB40E42375969A00819885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB40E32375969900819885 /* UIKit.framework */; };
 		65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA78560156A7913CDB4F3 /* UIView.swift */; };
+		65BAA31A0FCC9A46BC567F8A /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAAA69E939E0E720D46C48 /* Keyboard.swift */; };
+		65BAA9EFD9E6738327EE8493 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA92446D85D59F980FC5B /* UICollectionView.swift */; };
+		65BAAB0FB0CBB348683B427D /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA30E8FF3F89961DA362C /* Spacing.swift */; };
+		65BAAE32ACB6254F2DE87713 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA29E5B14FD8BD64C6496 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +38,11 @@
 		19FB40D6237593D300819885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FB40E02375954500819885 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
 		19FB40E32375969900819885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65BAA29E5B14FD8BD64C6496 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		65BAA30E8FF3F89961DA362C /* Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		65BAA78560156A7913CDB4F3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		65BAA92446D85D59F980FC5B /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		65BAAA69E939E0E720D46C48 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,8 @@
 				19FB40C9237593D300819885 /* JoaKit.h */,
 				19FB40CA237593D300819885 /* Info.plist */,
 				65BAA91B3B9789BA1D98B4B5 /* Extensions */,
+				65BAA90BBA43B2900ED43FEB /* DNA */,
+				65BAAEC32636C2324E0D5D80 /* Util */,
 			);
 			path = JoaKit;
 			sourceTree = "<group>";
@@ -103,13 +113,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		65BAA90BBA43B2900ED43FEB /* DNA */ = {
+			isa = PBXGroup;
+			children = (
+				65BAA30E8FF3F89961DA362C /* Spacing.swift */,
+			);
+			path = DNA;
+			sourceTree = "<group>";
+		};
 		65BAA91B3B9789BA1D98B4B5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				65BAA78560156A7913CDB4F3 /* UIView.swift */,
 				19FB40E02375954500819885 /* UIEdgeInsets.swift */,
+				65BAA92446D85D59F980FC5B /* UICollectionView.swift */,
+				65BAA29E5B14FD8BD64C6496 /* UITableView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65BAAEC32636C2324E0D5D80 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				65BAAA69E939E0E720D46C48 /* Keyboard.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +251,10 @@
 			files = (
 				19FB40E12375954500819885 /* UIEdgeInsets.swift in Sources */,
 				65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */,
+				65BAAB0FB0CBB348683B427D /* Spacing.swift in Sources */,
+				65BAA9EFD9E6738327EE8493 /* UICollectionView.swift in Sources */,
+				65BAAE32ACB6254F2DE87713 /* UITableView.swift in Sources */,
+				65BAA31A0FCC9A46BC567F8A /* Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
