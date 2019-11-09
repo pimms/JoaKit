@@ -3,6 +3,8 @@ Pod::Spec.new do |s|
   s.version      = '0.1'
   s.summary      = "Joakim's Toolkit"
   s.author       = 'Joakim Stien'
+  s.license      = 'GPLv2.0'
+  s.homepage     = 'https://github.com/pimms/JoaKit'
 
   s.platform      = :ios, '13.0'
   s.swift_version = '5.1'
