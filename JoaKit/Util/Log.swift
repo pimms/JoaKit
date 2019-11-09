@@ -10,7 +10,13 @@ public struct Log {
     // MARK: - Static properties
 
     public static var logPrefix: String? {
-        didSet { formattedPrefix = "[\(logPrefix)]" }
+        didSet {
+            if let prefix = logPrefix {
+                formattedPrefix = "[\(prefix)]"
+            } else {
+                formattedPrefix = ""
+            }
+        }
     }
 
     private static var formattedPrefix: String = ""
@@ -18,18 +24,19 @@ public struct Log {
     // MARK: - Private properties
 
     private let owner: AnyObject
+    private let ownerClassName: String
 
     // MARK: - Init
 
     public init(for owner: AnyObject) {
         self.owner = owner
+        self.ownerClassName = String(describing: type(of: owner))
     }
 
     // MARK: - Public methods
 
     public func log(_ level: Level, _ message: String) {
-        let className = String(describing: type(of: owner))
-        print("[][\(level.rawValue)][\(className)] \(message)")
+        print("\(Self.formattedPrefix)[\(level.rawValue)][\(ownerClassName)] \(message)")
     }
 
     public func log(_ message: String) {
