@@ -6,7 +6,7 @@
 
 import UIKit
 
-extension CGFloat {
+public extension CGFloat {
     static let verySmallSpacing: CGFloat = 2
     static let smallSpacing: CGFloat = 4
     static let mediumSpacing: CGFloat = 8

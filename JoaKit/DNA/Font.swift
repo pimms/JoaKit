@@ -6,7 +6,7 @@
 
 import UIKit
 
-extension UIFont {
+public extension UIFont {
     static var title1: UIFont {
         return UIFont.boldSystemFont(ofSize: 34.0)
     }
