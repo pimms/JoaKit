@@ -42,4 +42,12 @@ public struct Log {
     public func log(_ message: String) {
         log(.debug, message)
     }
+
+    public func warn(_ message: String) {
+        log(.warn, message)
+    }
+
+    public func error(_ message: String) {
+        log(.error, message)
+    }
 }
