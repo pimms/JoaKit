@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19F19414237704CA00BEDA3E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F19413237704CA00BEDA3E /* Label.swift */; };
 		19F194162377050400BEDA3E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F194152377050400BEDA3E /* Font.swift */; };
+		19F1941B2377470D00BEDA3E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1941A2377470D00BEDA3E /* Log.swift */; };
 		19FB40D0237593D300819885 /* JoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB40C6237593D300819885 /* JoaKit.framework */; };
 		19FB40D5237593D300819885 /* JoaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB40D4237593D300819885 /* JoaKitTests.swift */; };
 		19FB40D7237593D300819885 /* JoaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FB40C9237593D300819885 /* JoaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		19F19413237704CA00BEDA3E /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		19F194152377050400BEDA3E /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		19F1941A2377470D00BEDA3E /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		19FB40C6237593D300819885 /* JoaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JoaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FB40C9237593D300819885 /* JoaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoaKit.h; sourceTree = "<group>"; };
 		19FB40CA237593D300819885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				65BAAA69E939E0E720D46C48 /* Keyboard.swift */,
+				19F1941A2377470D00BEDA3E /* Log.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				19FB40E12375954500819885 /* UIEdgeInsets.swift in Sources */,
 				65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */,
+				19F1941B2377470D00BEDA3E /* Log.swift in Sources */,
 				65BAAB0FB0CBB348683B427D /* Spacing.swift in Sources */,
 				65BAA9EFD9E6738327EE8493 /* UICollectionView.swift in Sources */,
 				19F194162377050400BEDA3E /* Font.swift in Sources */,
