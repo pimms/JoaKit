@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F19414237704CA00BEDA3E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F19413237704CA00BEDA3E /* Label.swift */; };
+		19F194162377050400BEDA3E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F194152377050400BEDA3E /* Font.swift */; };
 		19FB40D0237593D300819885 /* JoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB40C6237593D300819885 /* JoaKit.framework */; };
 		19FB40D5237593D300819885 /* JoaKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB40D4237593D300819885 /* JoaKitTests.swift */; };
 		19FB40D7237593D300819885 /* JoaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FB40C9237593D300819885 /* JoaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19F19413237704CA00BEDA3E /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		19F194152377050400BEDA3E /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		19FB40C6237593D300819885 /* JoaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JoaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FB40C9237593D300819885 /* JoaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoaKit.h; sourceTree = "<group>"; };
 		19FB40CA237593D300819885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F19412237704BF00BEDA3E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19F19413237704CA00BEDA3E /* Label.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		19FB40BC237593D200819885 = {
 			isa = PBXGroup;
 			children = (
@@ -87,11 +99,12 @@
 		19FB40C8237593D300819885 /* JoaKit */ = {
 			isa = PBXGroup;
 			children = (
+				19F19412237704BF00BEDA3E /* Components */,
+				65BAA90BBA43B2900ED43FEB /* DNA */,
+				65BAA91B3B9789BA1D98B4B5 /* Extensions */,
+				65BAAEC32636C2324E0D5D80 /* Util */,
 				19FB40C9237593D300819885 /* JoaKit.h */,
 				19FB40CA237593D300819885 /* Info.plist */,
-				65BAA91B3B9789BA1D98B4B5 /* Extensions */,
-				65BAA90BBA43B2900ED43FEB /* DNA */,
-				65BAAEC32636C2324E0D5D80 /* Util */,
 			);
 			path = JoaKit;
 			sourceTree = "<group>";
@@ -117,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				65BAA30E8FF3F89961DA362C /* Spacing.swift */,
+				19F194152377050400BEDA3E /* Font.swift */,
 			);
 			path = DNA;
 			sourceTree = "<group>";
@@ -253,7 +267,9 @@
 				65BAA0AFDA78313F9F766E4B /* UIView.swift in Sources */,
 				65BAAB0FB0CBB348683B427D /* Spacing.swift in Sources */,
 				65BAA9EFD9E6738327EE8493 /* UICollectionView.swift in Sources */,
+				19F194162377050400BEDA3E /* Font.swift in Sources */,
 				65BAAE32ACB6254F2DE87713 /* UITableView.swift in Sources */,
+				19F19414237704CA00BEDA3E /* Label.swift in Sources */,
 				65BAA31A0FCC9A46BC567F8A /* Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

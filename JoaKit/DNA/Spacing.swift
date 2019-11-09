@@ -1,3 +1,9 @@
+//
+//  Copyright © FINN.no AS, Inc. All rights reserved.
+//
+//  Later shamelessly axed to pieces by me.
+//
+
 import UIKit
 
 extension CGFloat {
