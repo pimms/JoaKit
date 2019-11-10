@@ -23,6 +23,10 @@ public extension UIView {
         fillInSuperview(insets: UIEdgeInsets(all: margins))
     }
 
+    func fillInSuperview(margins: CGFloat) {
+        fillInSuperview(insets: UIEdgeInsets(all: margins))
+    }
+
     func fillInSuperview(insets: UIEdgeInsets) {
         guard let superview = superview else { return }
 
